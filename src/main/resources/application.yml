@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: file-upload-spring-graphql
+  graphql:
+    graphiql:
+      path: /graphiql
+      enabled: true
+

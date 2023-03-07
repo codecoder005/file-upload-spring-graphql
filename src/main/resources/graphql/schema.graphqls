@@ -1,0 +1,13 @@
+scalar Upload
+
+schema {
+    query: Query
+    mutation: Mutation
+}
+type Query {
+    noOp: Boolean
+}
+
+type Mutation {
+    updateAvatar(file: Upload!): String
+}
